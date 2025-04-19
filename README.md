@@ -79,9 +79,6 @@ npm start
 A aplicação React abrirá automaticamente em: [http://localhost:3000](http://localhost:3000)
 
 ---
-```
-
----
 
 ## ✨ Funcionalidades
 

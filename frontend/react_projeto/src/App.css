@@ -1,0 +1,196 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.list {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  list-style: none;
+}
+
+.li-list {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modalPiloto {
+  display: flex;
+  align-items: center;
+}
+
+.botoesModalDetalhesPiloto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  float: right;
+  justify-self: right;
+  gap: 10px;
+  padding: 20px;
+}
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px !important;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container-dados-usuario-superior {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.container-dados-usuario-inferior {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.botaoEditarUsuario {
+  justify-self: end;
+  float: right;
+}
+.container-botoes {
+  display: flex !important;
+  align-items: end;
+  float: right;
+  gap: 20px;
+}
+
+.botoes {
+  display: flex;
+  float: right;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.form-floating input {
+  margin-bottom: 20px;
+}
+
+.containerRating {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.containerLateralEsquerdo {
+    display: flex;
+    align-items: center;
+    float: left;
+    flex-direction: column;
+}
+
+.home-background {
+  position: relative;
+  background-image: url("./assets/img/gridBG.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.home-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* ou rgba(0, 0, 0, 0.6) */
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.home-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  text-shadow: 1px 1px 4px black;
+}
+
+
+.F1Logo {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.footer p {
+  margin-top: 20px;
+}
+
+
+.DataList {
+  padding: 2rem;
+}
+
+.meuTimeTitle {
+  margin-left: 20px;
+  justify-self: left;
+}
+
+.header {
+  margin-right: 20px;
+}
+
+.listMeuTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 20vw;
+}
